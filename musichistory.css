@@ -1,0 +1,39 @@
+body {
+	font-family: 'Khula', sans-serif;
+}
+#mainnav {
+	margin: 0 auto;
+	padding: 5px;
+	background-color: #FFB4B0;
+	border: 3px solid black;
+	width: 800px;
+
+
+}
+
+#nav li {	
+	list-style: none;
+	display: inline-flex;
+
+}
+
+#input {
+	margin: 0;
+	background-color: #4DD7FA; 
+	border: 3px solid black;
+	width: 200px;
+	height: 380px;
+	padding-left: 10px;
+}
+
+#article {
+	background-color: #FEFAC0;
+	border: 3px solid black;
+	width: 600px;
+	height: 380px;
+	padding-left: 20px;
+	float: right;
+}
+ #article h1 {
+ 	color: #785616;
+ }

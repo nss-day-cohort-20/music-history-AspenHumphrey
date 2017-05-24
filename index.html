@@ -1,13 +1,97 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="musichistory.css">
+
   <title>Music History</title>
 </head>
 
 <body>
+<!--div below with id="mainnav" contains nav anchor links -->
+<div id="mainnav">
+	<nav id="nav">
+		<ul>
+			<li> <a href="index.html">List Music</a></li> |
+			<li> <a href="#">Add Music</a> </li>
+		</ul>
+	</nav>
+</div>	
+<!--div below with id="input" holds all 'input'/user interation functions: song length, artist, album, genre, and 'filter' button. -->
+<div id="input">
+	<div id="SongLength">
+		<label>Song Length:<br>
+		<input type="range" name="Song Length">
+	</div>
 
+	<label>Artist:<br></label>
+	<select id="Artist">
+		<option value="Weeknd">Weeknd</option>
+		<option value="Cherub">Cherub</option>
+		<option value="Cash">Cash</option>
+		<option value="Marshmellow">Marshmellow</option>
+		<option value="Mumford and Sons">Mumford and Sons</option>
+	</select>
+<br><br>
+	<label>Album:<br></label>
+	<select id="Album">
+		<option value="Starboy">Starboy</option>
+		<option value="Year of the Caprese">Year of the Caprese</option>
+		<option value="Out Among the Stars">Out Among the Stars</option>
+		<option value="Moving On">Moving On</option>
+		<option value="Wilder Mind">Wilder Mind</option>
+
+	</select>
+<br><br>
+	<label>Genere:<br></label>
+	<form id="genre">
+		
+			<input type="checkbox" name="Rock">Rock
+			<input type="checkbox" name="CLassical">Classical
+			<input type="checkbox" name="Jazz">Jazz
+			<input type="checkbox" name="Pop">Pop
+			<input type="checkbox" name="Blues">Blues
+			<input type="checkbox" name="Hip Hop">Hip Hop
+
+	</form>
+<br>
+<!-- div with id="button" is just for the 'Filter button' -->
+	<div id="button">
+			<button type="button">Filter</button>
+	</div>
+</div>
+
+<!-- div with id="article" is for all of the articles on the page! -->
+<div id="article">
+	<article>
+		<h1>Starboy</h1>
+		<p>The Weeknd | Starboy | Hip Hop</p>
+	</article>
+
+	<article>
+		<h1>Doses and Momosas</h1>
+		<p>Cherub | Year of the Caprese | Pop</p>
+	</article>
+
+	<article>
+		<h1>Tennessee</h1>
+		<p>Cash | Out Among the Stars | Blues</p>
+	</article>
+
+	<article>
+		<h1>Moving On</h1>
+		<p>Marshmellow | Moving On | Pop</p>
+	</article>
+
+	<article>
+		<h1>The Wolf</h1>
+		<p>Mumford and Sons | Wilder Mind | Pop</p>
+	</article>
+</div>
 
 </body>
+
 </html>
