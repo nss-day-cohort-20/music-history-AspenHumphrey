@@ -21,14 +21,15 @@
 	</nav>
 </div>	
 <!--div below with id="input" holds all 'input'/user interation functions: song length, artist, album, genre, and 'filter' button. -->
+<div id="container">
 <div id="input">
-	<div id="SongLength">
-		<label>Song Length:<br>
-		<input type="range" name="Song Length">
+	<div id="songleng">
+	<label class="label">Song Length:<br></label>
+		<input class="label" type="range" name="Song Length">
 	</div>
 
-	<label>Artist:<br></label>
-	<select id="Artist">
+	<label class="label">Artist:<br></label>
+	<select class="label" id="artist">
 		<option value="Weeknd">Weeknd</option>
 		<option value="Cherub">Cherub</option>
 		<option value="Cash">Cash</option>
@@ -36,8 +37,8 @@
 		<option value="Mumford and Sons">Mumford and Sons</option>
 	</select>
 <br><br>
-	<label>Album:<br></label>
-	<select id="Album">
+	<label class="label">Album:<br></label>
+	<select class="label" id="album">
 		<option value="Starboy">Starboy</option>
 		<option value="Year of the Caprese">Year of the Caprese</option>
 		<option value="Out Among the Stars">Out Among the Stars</option>
@@ -46,8 +47,8 @@
 
 	</select>
 <br><br>
-	<label>Genere:<br></label>
-	<form id="genre">
+	<label class="label">Genere:<br></label>
+	<form  class="label" id="genere">
 		
 			<input type="checkbox" name="Rock">Rock
 			<input type="checkbox" name="CLassical">Classical
@@ -59,8 +60,8 @@
 	</form>
 <br>
 <!-- div with id="button" is just for the 'Filter button' -->
-	<div id="button">
-			<button type="button">Filter</button>
+	<div>
+		<button id="button" type="button">Filter</button>
 	</div>
 </div>
 
@@ -72,7 +73,7 @@
 	</article>
 
 	<article>
-		<h1>Doses and Momosas</h1>
+		<h1>Doses and Mimosas</h1>
 		<p>Cherub | Year of the Caprese | Pop</p>
 	</article>
 
@@ -90,6 +91,7 @@
 		<h1>The Wolf</h1>
 		<p>Mumford and Sons | Wilder Mind | Pop</p>
 	</article>
+</div>
 </div>
 
 </body>

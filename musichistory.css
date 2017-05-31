@@ -1,4 +1,6 @@
 body {
+	width: 80%;
+	justify-content: space-between;
 	font-family: 'Khula', sans-serif;
 }
 #mainnav {
@@ -6,34 +8,63 @@ body {
 	padding: 5px;
 	background-color: #FFB4B0;
 	border: 3px solid black;
-	width: 800px;
-
-
+	width: 80%;
 }
 
 #nav li {	
 	list-style: none;
 	display: inline-flex;
-
 }
 
 #input {
-	margin: 0;
 	background-color: #4DD7FA; 
 	border: 3px solid black;
-	width: 200px;
-	height: 380px;
-	padding-left: 10px;
+	width: 20%;
+	height: 420px;
+	margin: 4% 0% 0% 8%;
+	cursor: pointer;
+	display: inline-block;
+
 }
 
 #article {
 	background-color: #FEFAC0;
 	border: 3px solid black;
-	width: 600px;
-	height: 380px;
-	padding-left: 20px;
-	float: right;
+	width: 50%;
+	height: 420px;
+	display: inline-block;
+	font-size: .75em;
+	margin: 5% 0% 0% 10%;
+	text-align: left;
 }
  #article h1 {
  	color: #785616;
+ 	padding: 0 0 0 5%;
+ }
+
+#article p {
+	padding-left: 10%;
+}
+
+ #artist #album {
+ 	border: 3px solid black;
+ 	background-color: white;
+ 	border-radius: 6px;
+ 	padding: 3px;
+ 	font-size: .75em;
+ 	width: 80%;
+ }
+
+ .label {
+ 	padding: 5px 0 0 10px;
+ }
+
+#genere {
+ 	cursor: pointer;
+ 	padding: 0 5% 0 5%;
+ }
+
+ #button {
+ 	margin-left: 30%;
+ 	border: 3px solid black;
  }
