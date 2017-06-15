@@ -1,7 +1,40 @@
-var songs = [];
+var songsDiv = document.getElementById("article")
 
-songs[songs.length] = "Legs > by Z*ZTop on the album Eliminator";
-songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
-songs[songs.length] = "Another Brick in the Wall > by Pink Floyd on the album The Wall";
-songs[songs.length] = "Welco(me to the Jungle > by Guns & Roses on the album Appetite for Destruction";
-songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill";
+  songs = [
+    {
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "album": "Starboy"
+    },
+    {
+      "title": "Doses and Mimosas",
+      "artist": "Cherub",
+      "album": "Year of the Caprese"
+    },
+    {
+      "title": "By the Way",
+      "artist": "Red Hot Chili Peppers",
+      "album": "Californication"
+    },
+    {
+      "title": "Moving On",
+      "artist": "Marshmellow",
+      "album": "Moving On"
+    },
+    {
+      "title": "The Wolf",
+      "artist": "Mumford and Sons",
+      "album": "Wilder Mind"
+    }
+  ]
+
+songs.forEach(function(song) {
+  songsDiv.innerHTML += `<h2>${song.title}</h2> <p>${song.artist} | ${song.album}</p>`
+});
+
+
+
+
+// songs[].title
+// songs[].artist
+// songs[].album
