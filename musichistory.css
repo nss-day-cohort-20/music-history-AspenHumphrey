@@ -37,7 +37,7 @@ body {
 	margin-right: 8%;
 }
 
-#article {
+#songs {
 	background-color: #FEFAC0;
 	border: 3px solid black;
 	font-size: 1em;
@@ -45,16 +45,16 @@ body {
 	width: 66%;
 	padding-left: 3%;
 }
- #article h2 {
+ #songs h2 {
  	color: #785616;
  
  }
 
-#article p {
+#songs p {
 	padding-left: 10%;
 }
 
- #artist #album {
+ #songs #album {
  	border: 3px solid black;
  	background-color: white;
  	border-radius: 6px;
